@@ -1,0 +1,13 @@
+var books = [
+
+        {title:'Imperial Bedrooms',
+         image:'http://upload.wikimedia.org/wikipedia/en/thumb/e/e8/Imperial_bedrooms_cover.JPG/200px-Imperial_bedrooms_cover.JPG' 
+      },
+
+       {title:'Less than zero', 
+        image:'http://d.gr-assets.com/books/1282271923l/9915.jpg' 
+      }
+
+      
+
+];

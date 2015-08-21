@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>MEBN</title>
+        <link rel="stylesheet" href="./css/store.css" type="text/css">
+        
+        <script data-main="js/require.config.js" src="js/lib/require.js"></script>
+        
+    </head>
+    <body>
+        
+        <div id="container">
+            <nav class="menu">
+                        <ul class="footer"> 
+                            <li><a href="/">About</a></li> 
+                            <li><a href="/gallery">Gallery</a></li>
+                            <li><a href="/edit">Add New</a></li>
+                            
+                        </ul>       
+            </nav>
+            
+                    <section class="feed"></section>    
+                    
+                    <script id="bookTemplate" type="text/x-handlebars-template">
+                        <img class="thumb" src="{{image}}"/>
+                        <h2 class="bookTitle">{{title}}</h2>
+                    </script>
+
+
+                  
+                    <script id="aboutTemplate" type="text/x-handlebars-template">
+                        About
+                    </script>
+
+                      <script id="editTemplate" type="text/x-handlebars-template">             
+                            <form id="addBook" action="#">  <label for="title">Book Title</label><input type="text" id="title">
+                                <label for="image">Image Link</label><input type="text" id="image">
+                                <button id="add-book">Button</button>                       
+                            </form>                 
+                      </script>   
+                        
+        </div>
+        
+    </body>
+</html>
